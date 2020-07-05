@@ -1,0 +1,114 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	background-color: #e8e8e8;
+	padding: 120px;
+	font-size: 20px;
+}
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.ul{
+	list-style: url('img/ok.png');
+}
+.list li{
+	color: #273d46;
+	line-height: 36px;
+	list-style: georgian inside url('../img/ok.png');
+}
+.list li:nth-child(1){
+	text-decoration: line-through;
+
+}
+.list li:nth-child(2){;
+	font-weight: 700;
+
+}
+.list li:nth-child(3){;
+	font-style: italic;
+
+}
+.list li:nth-child(4){
+	margin: 0 0 80px 0;
+	text-transform: uppercase;
+}
+
+.list li:hover:nth-child(6){
+	color: red;
+	
+}
+.list li:nth-child(8){
+	margin: 0 0 50px 0;
+	
+}
+
+
+.button {
+	display: block;
+	font-size: 18px;
+	color: #e8e8e8;
+	margin: 0 0 50px 0;
+	border: 1px solid #80b7b3 ;
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #80b7b3;
+	box-shadow: 1 1 2px #80b7b3;
+
+}
+.form {
+}
+.textbutton {
+	display: flex;
+	font-size: 18px;
+	color: #e8e8e8;
+	margin: 0 0 50px 0;
+	border: 1px solid #80b7b3 ;
+	width: 300px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #80b7b3;
+	
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.textbutton img{
+	margin-left:10px ;
+}
+.textbutton:hover{
+	background-color: #3a5856;
+	border: 1px solid #3a5856;
+
+}
+.textbutton:active{
+	background-color: gray;
+	border: 1px solid gray;
+}
+.textinput {
+	width: 300px;
+	height: 50px;
+	border: 1px solid #80b7b3;
+}
+.textinput:focus{
+	box-shadow: 0 0 15px #80b7b3;
+}
